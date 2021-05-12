@@ -42,3 +42,5 @@ arc.append("text")
     })
     .attr("text-anchor", "middle")
     .text(function(d) { return d.data.platform+":"+d.data.percentage+"%"; });
+
+//end of the html code
